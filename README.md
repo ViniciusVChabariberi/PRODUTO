@@ -15,5 +15,5 @@ Para realizar uma venda, este serviço utiliza o **Spring Cloud OpenFeign** para
 ## 📸 Resultado Final (Integração Total)
 Demonstração da venda processada com sucesso, totalizando R$ 12,00:
 
-![Fluxo de Venda](screenshots/Captura%20de%20tela%202026-04-26%20103136.png)
-![Listagem de Produtos](screenshots/Captura%20de%20tela%202026-04-26%20103528.png)
+![Fluxo de Venda](screenshots/Fluxo_Venda.png)
+![Listagem de Produtos](screenshots/Listagem.png)
