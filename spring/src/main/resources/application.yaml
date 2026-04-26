@@ -1,0 +1,21 @@
+server:
+  port: 8083
+
+spring:
+  application:
+    name: produto-service
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/produto_db
+
+  cloud:
+    discovery:
+      client:
+        simple:
+          instances:
+            cliente-service:
+              - uri: http://localhost:8082
+
+logging:
+  level:
+    com.vinivictor.api_produto.client.ClienteFeignClient: DEBUG
